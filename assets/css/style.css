@@ -72,9 +72,9 @@ a:hover{
     margin-right: 69px;
 }
 
-a.btn-signup {
+.btn-signup {
     text-transform: uppercase;
-    background-color: #E65914;
+    background-image: linear-gradient(to right, #E65914 , #FF8000);
     color: white;
     font-size: 20px;
     font-weight: 600;
@@ -102,16 +102,17 @@ a.btn-signup {
 .banner-wrapper h2 {
     color: #6D6E71;
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 700;
     margin-top: 148px;
 }
 
 .banner-wrapper h1 {
     color: #E65914;
     font-size: 36px;
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 40px;
 }
+
 
 .banner-wrapper p {
     color: #6D6E71;
@@ -179,4 +180,114 @@ div.time {
     bottom: 80px;
     right: 80px;
     z-index: -1;
+}
+
+.section-2 {
+    background-color: #F0F0F0;
+    padding-top: 72px;
+}
+
+.form-wrapper {
+    background-color: white;
+    border-radius: 32px;
+    padding-top: 32px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 25px;
+}
+
+h2.form-title {
+    text-transform: uppercase;
+    color: #13707D;
+    font-weight: 700;
+    text-align: center;
+    max-width: 66%;
+    margin: 0 auto;
+}
+
+form.form-content {
+    margin-top: 30px;
+}
+
+.form-item {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    height: 100%;
+}
+
+input.form-input {
+    padding: 14px;
+    font-size: 19px;
+    font-weight: 500;
+    color: #6D6E71;
+    border: 1px solid #DFE0E4;
+    height: 33.33%;
+    outline: none;
+    border-radius: 8px;
+}
+
+.form-item .btn-signup{
+    min-height: 43px;
+}
+
+.form-areatext{
+    height: 129px;
+    border: 1px solid #DFE0E4;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 19px;
+    color: #6D6E71;
+    font-weight: 500;
+    padding-top: 12px;
+}
+
+
+.form-des{
+    margin-top: 45px;
+    font-size: 19px;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 0;
+    color: #6D6E71;
+}
+
+.icon-nofity {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(10%,-35%);
+}
+
+.promotion-item {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    border-radius: 30px;
+    padding: 41px;
+}
+
+span.promotion-text-1 {
+    text-transform: uppercase;
+    font-weight: 600;
+    display: inline-block;
+    color: #13707D;
+    margin: 35px 0 10px;
+    font-size: 24px;
+}
+
+span.promotion-text-2 {
+    color: #E65914;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 4px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+span.promotion-text-3 {
+    font-size: 19px;
+    color: #6D6E71;
+    min-height: 121px;
 }

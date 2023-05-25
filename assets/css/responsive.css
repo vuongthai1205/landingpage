@@ -2,9 +2,10 @@
     .container-fluid {
         max-width: unset;
     }
-    .banner-wrapper{
-        padding-left:15px;
-    padding-right: 15px;
+    .banner-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 44px;
     }
     .banner-wrapper h2{
         margin-top: 36px;
@@ -16,8 +17,22 @@
     .banner-wrapper a.btn-signup {
         margin-top: 15px;
     }
+    .form-wrapper{
+        padding-left: 15px;
+    padding-right: 15px;
+    }
+    .form-des {
+        margin-top: 30px;
+    }
+    h2.form-title{
+        max-width:unset;
+        font-size: 22px;
+    }
 
-    
+    .form-areatext{
+        text-align: left;
+        padding-left: 12px;
+    }
     
 }
 
