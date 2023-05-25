@@ -141,11 +141,11 @@ a.btn-signup {
 
 .time span {
     display: inline-flex;
-    width: 48%;
+    width: 49%;
     justify-content: center;
-    height: 126px;
+    height: 124px;
     align-items: center;
-    font-size: 106px;
+    font-size: 87px;
     background: url(../img/1x/hinh3.png);
     background-repeat: no-repeat;
     color: white;
@@ -155,11 +155,28 @@ a.btn-signup {
 
 div.time {
     justify-content: space-between;
-    width: 30%;
+    width: 23%;
 }
 
 .banner-wrapper a.btn-signup {
     /* display: inline-flex; */
     align-self: center;
     margin-top: 50px;
+}
+
+.bg-banner-1 {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    z-index: -1;
+    left: 12px;
+    transform: translateY(-50%);
+}
+
+.bg-banner-2 {
+    display: inline-block;
+    position: absolute;
+    bottom: 80px;
+    right: 80px;
+    z-index: -1;
 }

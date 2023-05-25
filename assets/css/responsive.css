@@ -10,13 +10,19 @@
         margin-top: 36px;
     }
     .time span{
-        font-size: 64px;
-        height: 81px;
+        font-size: 45px;
+        height: 66px;
     }
     .banner-wrapper a.btn-signup {
         margin-top: 15px;
     }
+
     
     
-    
+}
+
+@media (min-width: 1200px){
+    .container {
+        max-width: 1438px;
+    }
 }
