@@ -1,0 +1,22 @@
+@media (max-width: 992px) {
+    .container-fluid {
+        max-width: unset;
+    }
+    .banner-wrapper{
+        padding-left:15px;
+    padding-right: 15px;
+    }
+    .banner-wrapper h2{
+        margin-top: 36px;
+    }
+    .time span{
+        font-size: 64px;
+        height: 81px;
+    }
+    .banner-wrapper a.btn-signup {
+        margin-top: 15px;
+    }
+    
+    
+    
+}
