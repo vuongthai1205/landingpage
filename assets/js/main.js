@@ -35,3 +35,6 @@ function updateCountdown() {
   secondsElements[0].textContent = Math.floor(seconds / 10); 
   secondsElements[1].textContent = seconds % 10; 
 }
+
+
+
