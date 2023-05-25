@@ -186,6 +186,8 @@ div.time {
     background-color: #F0F0F0;
     padding-top: 72px;
     padding-bottom: 24px;
+    max-width: 1920px;
+    margin: 0 auto;
 }
 
 .form-wrapper {
@@ -371,4 +373,13 @@ span.box-text-2 {
     top: 0;
     right: 0;
     transform: translateY(-11%);
+}
+
+.section-2-img{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: end;
 }
