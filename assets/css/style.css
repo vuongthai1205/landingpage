@@ -185,6 +185,7 @@ div.time {
 .section-2 {
     background-color: #F0F0F0;
     padding-top: 72px;
+    padding-bottom: 24px;
 }
 
 .form-wrapper {
@@ -229,6 +230,7 @@ input.form-input {
 
 .form-item .btn-signup{
     min-height: 43px;
+    cursor: pointer;
 }
 
 .form-areatext{
@@ -290,4 +292,76 @@ span.promotion-text-3 {
     font-size: 19px;
     color: #6D6E71;
     min-height: 121px;
+}
+
+.section-3{
+    background-image: url(../img/1x/hinh15.png);
+    background-repeat: no-repeat;
+    background-position: center center; 
+    background-size: cover;
+    padding-top: 114px;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+.ytb-wrapper {
+    display: flex;
+    padding-left: 28px;
+    flex-direction: column;
+}
+
+span.ytb-text-1 {
+    color: #E65914;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 37px;
+    line-height: 43px;
+    margin: 18px 0px 2px;
+}
+
+span.ytb-text-2 {
+    font-size: 22px;
+    color: #6D6E71;
+    font-weight: 400;
+    margin: 18px 0px;
+}
+
+.box-icon {
+    display: flex;
+    gap: 18px;
+}
+
+.item-box-text {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+span.box-text-1 {
+    text-transform: uppercase;
+    color: #13707D;
+    font-size: 23px;
+    font-weight: 700;
+}
+
+span.box-text-2 {
+    color: #6D6E71;
+    font-size: 21px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.section-3-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.section-3-img-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translateY(-11%);
 }
