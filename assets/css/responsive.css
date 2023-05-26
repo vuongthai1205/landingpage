@@ -89,6 +89,16 @@
     .price-list {
         margin-top: 9px;
     }
+
+    h2.installment-text-1{
+        font-size: 74px;
+    }
+    .installment-clock{
+        display: none;
+    }
+    .installment-item.position-relative{
+        width: 100%;
+    }
 }
 
 @media (min-width: 1200px){
