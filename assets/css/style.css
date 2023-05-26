@@ -658,3 +658,65 @@ h3.item-cost-text {
     font-weight: 700;
     color: #E65914;
 }
+
+.section-6 {
+    margin-top: -202px;
+    z-index: 0;
+    padding-top: 243px;
+    background: #F0F0F0;
+}
+
+.text-why h2 {
+    color: #13707D;
+    font-size: 60px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.section-5 {
+    z-index: 1;
+}
+
+.why-img.position-relative h1 {
+    position: absolute;
+    top: 0;
+    right: 26%;
+    font-size: 60px;
+    color: #13707D;
+}
+
+.why-text {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.why-text::after {
+    position: absolute;
+    content: '';
+    background: url(../img/1x/h12.png);
+    background-repeat: no-repeat;
+    top: 0;
+    left: -26%;
+    height: 100%;
+    width: 100%;
+    background-size: contain;
+}
+
+.why-text h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #6D6E71;
+}
+
+.row.why-item {
+    margin: 40px 0;
+}
+
+.section-6-img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    transform: translate(-100%, 50%);
+}

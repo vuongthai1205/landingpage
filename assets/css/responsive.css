@@ -99,6 +99,17 @@
     .installment-item.position-relative{
         width: 100%;
     }
+    .why-img.position-relative {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    .why-img.position-relative h1{
+        display: none;
+    }
+    .why-text::after{
+        display: none;
+    }
 }
 
 @media (min-width: 1200px){
