@@ -897,6 +897,7 @@ h3.question-title {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 600;
+    text-align: center;
 }
 
 h4.question-des {
@@ -937,4 +938,49 @@ h4.question-des {
     bottom: 0;
     left: 0%;
     transform: translateX(50%);
+}
+
+footer {
+    background: #18434D;
+    color: white;
+    padding: 100px 0;
+    margin-top: 20px;
+}
+
+h2.text-footer-1 {
+    font-size: 33px;
+    font-weight: 600;
+}
+
+.time-table-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2.text-footer-2 {
+    font-size: 23px;
+    margin: 0;
+    font-weight: 400;
+    line-height: 37px;
+}
+
+.time-table-list {
+    padding-right: 123px;
+    margin-top: 26px;
+}
+
+.time-table-item{
+    margin-top: 15px;
+}
+
+.text-footer-2.thu{
+    width: 21%;
+}
+
+h2.text-footer-3 {
+    font-size: 45px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-weight: 700;
 }
