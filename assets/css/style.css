@@ -421,7 +421,7 @@ h3.section-4-text-3 {
 .price-list{
     margin-top: 170px;
 }
-.price-next, .price-pre {
+.price-list .owl-next, .price-list .owl-prev, .story-list .owl-prev, .story-list .owl-next {
     position: absolute;
     left: 99%;
     top: 50%;
@@ -430,9 +430,18 @@ h3.section-4-text-3 {
     cursor: pointer;
 }
 
-.price-pre {
+.story-list .owl-prev, .story-list .owl-next {
+    left: 110%;
+
+}
+
+.price-list .owl-prev,  .story-list .owl-prev{
     right: 99%;
     left: unset;
+}
+
+.story-list .owl-prev{
+    right: 110%;
 }
 
 .price-item {
@@ -445,10 +454,29 @@ h3.section-4-text-3 {
     align-items: center;
     transform: scale(0.85);
 }
+.price-list .owl-item.active.center .price-item {
+    transform: scale(1);
+    background-image: url(../img/1x/h8.png);
+}
+
+/*
 .price-item.center {
     transform: scale(1);
     margin-top: 90px;
 }
+
+.main-price {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 38%;
+    z-index: 1;
+}
+
+.main-price .price-item.main {
+    transform: scale(1.19);
+    background-image: url(../img/1x/h8.png);
+} */
 
 h2.price-title {
     color: white;
@@ -516,18 +544,7 @@ a.price-btn {
     transform: translateY(-50%);
 }
 
-.main-price {
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    top: 38%;
-    z-index: 1;
-}
 
-.main-price .price-item.main {
-    transform: scale(1.19);
-    background-image: url(../img/1x/h8.png);
-}
 
 
 .installment-clock {

@@ -38,3 +38,55 @@ function updateCountdown() {
 
 
 
+$('.price-list-wrapper.owl-carousel').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  center:true,
+  navText: ["<img src='./assets/img/1x/h9.png'>","<img src='./assets/img/1x/h10.png'>"],
+  responsive:{
+      0:{
+          items:1
+      },
+      992:{
+          items:3,
+          nav:true,
+
+      }
+  }
+})
+
+$('.owl-carousel.video-ytb-wrapper').owlCarousel({
+  loop:true,
+  margin:10,
+  nav:false,
+  center:true,
+  
+  responsive:{
+      0:{
+          items:1
+      },
+      992:{
+          items:1,
+          nav: false,
+      }
+  }
+})
+
+$('.owl-carousel.story-list').owlCarousel({
+  loop:true,
+  nav:true,
+  center:true,
+  nav:false,
+  navText: ["<img src='./assets/img/1x/h9.png'>","<img src='./assets/img/1x/h10.png'>"],
+  responsive:{
+      0:{
+          items:1
+      },
+      992:{
+          items:1,
+          nav:true,
+
+      }
+  }
+})
