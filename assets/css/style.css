@@ -600,7 +600,7 @@ h3.installment-text-2 {
     text-transform: uppercase;
     color: white;
     font-weight: 700;
-    margin-top: 13px;
+    margin-top: 26px;
 }
 
 .installment-item-1 {
@@ -1044,7 +1044,7 @@ h2.text-footer-3 {
     right: 0;
     position: absolute;
     border-radius: 5px;
-    background: #FBB516;
+    background: white;
 }
 
 .range-input, .year-range-input {
