@@ -90,3 +90,33 @@ $('.owl-carousel.story-list').owlCarousel({
       }
   }
 })
+
+
+function priceRange(){
+    const rangeInput = document.querySelectorAll(".range-input input"),
+    priceInput = document.querySelectorAll(".price-filter-input input"),
+    range = document.querySelector(".slider-range .progress");
+    
+    let field_value_min = document.querySelectorAll('.field-value-min')
+    let field_value_max = document.querySelectorAll('.field-value-max')
+    field_value_min[0].textContent = priceInput[0].value
+    field_value_max[0].textContent = priceInput[1].value
+    
+    rangeInput.forEach(input =>{
+        input.addEventListener("input", e =>{
+            let minVal = parseInt(rangeInput[0].value),
+            maxVal = parseInt(rangeInput[1].value);
+    
+            
+                priceInput[0].value = minVal;
+                field_value_min[0].textContent = minVal + 1 ;
+                priceInput[1].value = maxVal;
+                field_value_max[0].textContent = maxVal + 1;
+                range.style.left = ((minVal / rangeInput[0].max) * 100) + "%";
+                range.style.right = 100 - (maxVal / rangeInput[1].max) * 100 + "%";
+            
+        });
+    });
+}
+
+priceRange()
